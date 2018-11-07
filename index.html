@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resource Game Final</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script type="text/javascript" src="Clarity.js"></script>
+</head>
+
+<body>
+    <h3>
+      StockWorld
+    </h3>
+    <p>
+        Use the left, right and up arrow keys to move.
+    </p>
+
+    <p>Health  &nbsp; <progress id="health" value="100" max="100"></progress></p>
+    <p>Money : $ <span id="money">0</span></p>
+
+    <h3 style="margin-top: 100px;"> My Stocks </h3>
+    <p> McDonalds * <span id = "mcdonalds_cnt">0</span></p>
+    <p> Google * <span id = "google_cnt">0</span></p>
+    <p> Apple * <span id = "apple_cnt">0</span></p>
+    <p> CocaCola * <span id = "cocacola_cnt">0</span></p>
+    <p> Pepsi * <span id = "pepsi_cnt">0</span></p>
+
+    <h3 style="margin-top: 100px;"> Stock Market <span id="time" style="font-size: 12px;margin-left: 10px;">00:00</span> </h3>
+    <p> McDonalds : $ <span id = "mcdonalds">0</span></p>
+    <p> Google : $ <span id = "google">0</span></p>
+    <p> Apple : $ <span id = "apple">0</span></p>
+    <p> CocaCola : $ <span id = "cocacola">0</span></p>
+    <p> Pepsi : $ <span id = "pepsi">0</span></p>
+
+
+    <canvas id="canvas"></canvas>
+
+    <script type="text/javascript" src="front.js"></script>
+    <script type="text/javascript" src="back.js"></script>
+</body>
+
+</html>

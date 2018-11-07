@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #333;
+}
+
+h3{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #777;
+	display: block;
+	width: 500px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+canvas {
+	display: block;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #777;
+	display: block;
+	width: 400px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.info {
+	margin: 14px auto;
+	text-align: justify;
+	font-size: 18px;
+	color: #999;
+}
+
+label {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #555;
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 250px;
+  height: 15px;
+}
+
+progress[value]::-webkit-progress-bar {
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
